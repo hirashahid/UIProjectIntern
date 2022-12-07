@@ -114,9 +114,8 @@
     border: none;
 }
 
-.grid {
-    padding: 160px;
-    top: 300px
+.grid-container {
+    margin-top: 120px;
 }
 
 .grid-img-btn {
@@ -136,7 +135,24 @@
     position: relative;
     width: 100%;
     float: left;
-
     background-image: url(./assets/rectangle1.png);
     padding: 297px 0 200px;
+}
+
+.wf-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.mf-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.discounted-price {
+    color: red;
 }
