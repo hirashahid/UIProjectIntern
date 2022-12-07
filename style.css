@@ -10,15 +10,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 70px;
+    padding: 10px 90px;
 }
 
-.logo {
-    font-weight: bold;
-    font-size: 20px;
+.navbar-brand {
+    font-weight: 800;
+    font-size: 3ch;
+    color: #262626;
+    text-transform: uppercase;
 }
 
-.menu a {
+.nav-link {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -35,6 +37,11 @@
     position: relative;
     width: 100%;
     float: left;
+    background-image: url(./assets/banner.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: cover;
+    padding: 250px 0 200px;
 }
 
 .banner-img {
@@ -101,9 +108,35 @@
     color: white;
     padding: 5px 30px;
     margin: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: none;
 }
 
-.categories {
-    display: flex;
-    justify-content: space-between;
+.grid {
+    padding: 160px;
+    top: 300px
+}
+
+.grid-img-btn {
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    margin: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 800;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+
+.rectangle-img {
+    position: relative;
+    width: 100%;
+    float: left;
+
+    background-image: url(./assets/rectangle1.png);
+    padding: 297px 0 200px;
 }
