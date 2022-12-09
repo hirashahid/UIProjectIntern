@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <meta charset="utf-8">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,6 +16,8 @@
 </head>
 
 <body>
+
+    <!--NavBar-->
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light  menu">
@@ -46,62 +50,258 @@
                                 <a class="nav-link" href="#">BLOG<span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
-                        <ul class="navbar-nav d-flex flex-row">
+                        <div class="navbar-nav sm-icons">
                             <!-- Icons -->
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item me-3 me-lg-0">
-                                <a class="nav-link" href="#">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
+
+                            <a class="nav-link icon-setting social-icons" href="#"><img
+                                    src="https://img.icons8.com/material-outlined/24/null/search--v1.png" /></a>
+
+
+                            <a class="nav-link icon-setting social-icons" href="#"><img
+                                    src="https://img.icons8.com/windows/24/null/like--v1.png" /></a>
+
+
+                            <a class="nav-link icon-setting social-icons" href="#"><img
+                                    src="https://img.icons8.com/windows/24/null/shopping-cart.png" /></a>
+
+                        </div>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-20">
-                    <div class="banner-txt">
-                        <h5 class="new-trend">NEW TREND</h5>
-                        <div class="collusion">COLLUSION</div>
-                        <h5 class="banner-desc">An exclusive selection of this season's trends.</h5>
-                        <div class='banner-btn-div'>
-                            <button class='banner-btn'>DISCOVER</button>
-                            <button class='banner-btn'>SHOP NOW</button>
-                        </div>
-                    </div>
-                </div>
+
+    <div class="banner">
+        <img class="img-fluid" src="./assets/banner.png" alt="banner">
+        <div class="banner-txt">
+            <h6 class="new-trend">NEW TREND</h6>
+            <div class="collusion">COLLUSION</div>
+            <p class="banner-desc">An exclusive selection of this season's trends.</p>
+            <div class='banner-btn-div'>
+                <button class='banner-btn'>DISCOVER</button>
+                <button class='banner-btn'>SHOP NOW</button>
             </div>
-    </section>
-    <section class="grid">
+        </div>
+    </div>
+
+    <!--Grid-->
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <img src="./assets/img1.png" alt='img3' />
+                    <img class="img-fluid space" src="./assets/img1.png" alt='img3' />
                     <div class="row">
-                        <div class="col-md-6 col-12">
-                            <img src="./assets/img2.png" alt='img2' />
+                        <div class="col-6">
+                            <img class="img-fluid space" style="margin-top: 30px;" src="./assets/img2.png" alt='img2' />
                         </div>
-                        <div class="col-md-6 col-12">
-                            <img src="./assets/img3.png" alt='img3' />
+                        <div class=" col-6">
+                            <img class="img-fluid space" style="margin-top: 30px;" src="./assets/img3.png" alt='img3' />
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <div class="rectangle-img">
-                        <button class="grid-img-btn">CATEGORY NAME</button>
+                    <div class="text-in-image">
+                        <img class="img-fluid" style="margin-top: 50px;" src="./assets/rectangle1.png" alt="rectangle">
+                        <button class="grid-img-btn ">CATEGORY NAME</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--Women Fashion-->
+    <section class="women-fashion">
+        <div class="container wf-container">
+            <h5 style="font-weight: bold;">WOMEN'S FASHION</h5>
+            <h5>Shop our new arrivals from established brands</h5>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <img class="img-fluid space" src="./assets/img4.png" alt='img4' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img5.png" alt='img5' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img6.png" alt='img6' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img7.png" alt='img7' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Men Fashion-->
+    <section class="men-fashion">
+        <div class="container wf-container">
+            <h5 style="font-weight: bold;">MEN'S FASHION</h5>
+            <h5>Shop our new arrivals from established brands</h5>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <img class="img-fluid space" src="./assets/img8.png" alt='img4' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img9.png" alt='img5' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img10.png" alt='img6' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6"><img class="img-fluid space" src="./assets/img11.png" alt='img7' />
+                    <h6 class="ígure-style">IGURE</h6>
+                    <h6 style="font-weight: 600;">GREEN MUSCLE FIT POLO SHIRT</h6>
+                    <div>
+                        <h7 class="price">$229.00</h7>
+                        <h7 class="discounted-price">$129.00</h7>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Grid-->
+    <section class="grid">
+        <div class="wf-container">
+            <h5 style="font-weight: bold;">AVONE STYLES</h5>
+            <h5>Choose Your Favorite Color</h5>
+        </div>
+        <div class="container">
+            <div class="grid-container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <img class="img-fluid" style='margin-top: 120px;' src="./assets/avone-style/img12.png"
+                            alt='img3' />
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img style="background-size: contain;" class="img-fluid space"
+                            src="./assets/avone-style/img13.png" alt='img2' />
+                        <div class="row">
+                            <div class="col-1 "> </div>
+                            <div class="col-5 dress-txt">
+                                <h6 class="underline"> SHOW WOMEN'S DRESS</h6>
+                                <hr>
+                            </div>
+                            <div class="col-6">
+                                <div class="image-edit">
+                                    <img src="./assets/avone-style/img14.png" alt='img3' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <img class="img-fluid" src="./assets/footer.png" alt="footer">
+        <div class=" container banner-txt ">
+            <p class="new-trend">OWN THE DAY</p>
+            <p class="collusion">TACHEN 19</p>
+            <p class="banner-desc">An exclusive selection of this season's trends.</p>
+            <button class='banner-btn'>SHOP COLLECTION</button>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <section>
+        <div class="contact">
+            <div class="row">
+                <div class="col-lg-6 col-12 contact-txt">
+                    <h5 style="font-weight: 700;">YOUR LOGO</h5>
+                    <p>We earned a reputation of being good at what we do.
+                        Let us take your online shop to new dimension
+                        in success!</p>
+                    <div style="margin: 30px 0 30px 0;">
+                        <img src="https://img.icons8.com/fluency-systems-regular/20/null/worldwide-location.png" />
+                        <h7 style="margin-left: 20px;">Comilla, Bangladesh 3500</h7>
+                    </div>
+                    <div class='underline'>kawsarahmed0210@gmail.com</div>
+                    <p>01647470457</p>
+                    <div class='social-icons'>
+                        <img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png" />
+                        <img src="https://img.icons8.com/material-outlined/24/null/instagram-new.png" />
+                        <img src="https://img.icons8.com/material-rounded/24/null/twitter.png" />
+                        <img src="https://img.icons8.com/material-rounded/24/null/linkedin--v1.png" />
+                    </div>
+                </div>
+                <div style="margin-top: 20px;" class="col-lg-6 col-12">
+                    <h5>RECEIVE EMAIL UPDATES</h5>
+                    <form class="form">
+                        <input class='form-input' placeholder="Your Email Address" />
+                        <button class="button-form">JOIN</button>
+                    </form>
+                    <div class="row">
+                        <div style='margin-top: 15px;' class="col-4">
+                            <h5 class="contact-heading">SHOP</h5>
+                            <h6 style=" margin-top: 20px;">Shop</h6>
+                            <h6 style="margin-top: 20px;">Collection</h6>
+                            <h6 style="margin-top: 20px;">Outlet</h6>
+                            <h6 style="margin-top: 20px;">LookBook</h6>
+                        </div>
+                        <div style='margin-top: 15px;' class="col-4">
+                            <h5 class="contact-heading">HELP</h5>
+                            <h6 style="margin-top: 20px;">FAQ</h6>
+                            <h6 style="margin-top: 20px;">Privacy Policy</h6>
+                            <h6 style="margin-top: 20px;">Terms and conditions</h6>
+                            <h6 style="margin-top: 20px;">Return and Exchanges</h6>
+                        </div>
+                        <div style='margin-top: 15px;' class="col-4">
+                            <h5 class="contact-heading">ABOUT</h5>
+                            <h6 style="margin-top: 20px;">Journal</h6>
+                            <h6 style="margin-top: 20px;">Our Story</h6>
+                            <h6 style="margin-top: 20px;">Contact</h6>
+                            <h6 style="margin-top: 20px;">Store Location</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class='copyright'>
+        <p> Copyright © 2020. Your company name All rights reserved</p>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
