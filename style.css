@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 90px;
+    padding: 10px 80px;
 }
 
 .navbar-brand {
@@ -60,9 +60,9 @@
 }
 
 .collusion {
-    letter-spacing: 1pt;
     font-weight: 700;
-
+    font-size: 80px;
+    font-family: 'Poppins';
     margin-bottom: 0;
 }
 
