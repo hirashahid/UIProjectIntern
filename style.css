@@ -6,192 +6,74 @@
 }
 
 /* NavBar */
-.nav-bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 80px;
-}
 
 .navbar-brand {
     font-weight: 800;
     font-size: 3ch;
-    color: #262626;
-    text-transform: uppercase;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.icon-setting {
-    margin-right: 15px;
-}
-
-.icons i {
-    font-size: 15px;
-    padding: 10px 20px;
 }
 
 /*----------- Banner-------------- */
 
+@media screen and (max-width: 1920px) {
+    .banner {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+    }
+}
+
 .banner {
     align-items: center;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .banner-txt {
     position: absolute;
-    padding-right: 3%;
-    padding-top: 5%;
+    padding: 444px 231px 181px 909px;
 }
 
 .new-trend {
-    letter-spacing: 1pt;
     font-weight: 500;
-
     margin-bottom: 0;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .collusion {
     font-weight: 700;
     font-size: 80px;
-    font-family: 'Poppins';
+    line-height: 120px;
     margin-bottom: 0;
 }
 
 .banner-desc {
     font-weight: 500;
-    font-size: 10px;
+    font-size: 18px;
+    line-height: 27px;
     margin-bottom: 0;
     inline-size: auto;
-}
-
-.banner-btn-div {
-    display: flex;
-    margin-top: 10px;
-    justify-content: flex-start;
 }
 
 .banner-btn {
     background-color: #22262A;
     color: white;
-    padding: 3px 15px;
-    margin: 2px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 9px;
+    padding: 4px 28px 4px 28px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     border: none;
 }
-
-/* 
-@media screen and (min-width: 1440px) {
-    .banner-txt {
-        position: absolute;
-        padding-right: 8%;
-        padding-top: 10%;
-    }
-
-    .new-trend {
-        letter-spacing: 1pt;
-        font-weight: 500;
-        font-size: 18px;
-        margin-bottom: 0;
-    }
-
-    .collusion {
-
-        size: 100px;
-        letter-spacing: 1pt;
-
-        font-weight: 700;
-        font-size: 80px;
-
-    }
-
-    .banner-desc {
-        margin-top: 30px;
-        font-weight: 500;
-        font-size: 18px;
-        inline-size: auto;
-        margin-bottom: 0;
-    }
-
-    .banner-btn-div {
-        display: flex;
-        margin-top: 10px;
-        justify-content: first baseline;
-    }
-
-    .banner-btn {
-        background-color: #22262A;
-        color: white;
-        padding: 5px 20px;
-        margin: 5px;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 15px;
-        border: none;
-    }
-}
-
-@media screen and (max-width: 538px) {
-    .banner-txt {
-        position: absolute;
-        padding-right: 3%;
-        padding-top: 5%;
-    }
-
-    .new-trend {
-        letter-spacing: 1pt;
-        font-weight: 500;
-        font-size: 6px;
-        margin-bottom: 0;
-    }
-
-    .collusion {
-        letter-spacing: 1pt;
-        font-weight: 700;
-        font-size: 18px;
-    }
-
-    .banner-desc {
-        font-weight: 500;
-        font-size: 8px;
-        inline-size: auto;
-        margin-bottom: 0;
-    }
-
-    .banner-btn-div {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .banner-btn {
-        background-color: #22262A;
-        color: white;
-        padding: 3px 10px;
-        margin: 2px;
-        text-transform: uppercase;
-        font-weight: 100;
-        font-size: 6px;
-        border: none;
-    }
-} */
 
 /* Grid */
 
 .grid-img-btn {
     background-color: white;
     color: black;
-    padding: 5px 20px;
-    margin: 10px;
+    padding: 5px 30px;
+    margin: 30px;
     border: 10px;
     text-transform: uppercase;
     font-weight: 800;
@@ -250,17 +132,6 @@
     margin-left: 30px;
 
 }
-
-/* Footer */
-/* .footer {
-    margin-top: 100px;
-    width: 100%;
-    background-image: url(./assets/footer.png);
-    min-height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 250px 0 200px;
-} */
 
 .footer {
     justify-content: flex-start;
