@@ -8,20 +8,17 @@
 /* NavBar */
 
 .navbar-brand {
-    font-weight: 800;
-    font-size: 3ch;
+    width: 164px;
+    height: 42px;
+    left: 229px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
 }
 
 /*----------- Banner-------------- */
 
-@media screen and (max-width: 1920px) {
-    .banner {
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        padding-left: 5%;
-    }
-}
+
 
 .banner {
     align-items: center;
@@ -89,14 +86,14 @@
 @media screen and (min-width: 1440px) {
     .image-edit {
         background-color: white;
-        padding: 40px;
+        /* padding: 40px; */
         margin-top: -50px;
     }
 }
 
 .image-edit {
     background-color: white;
-    padding: 20px 30px 20px 20px;
+    padding: 20px;
     margin-top: -50px;
 }
 
@@ -118,29 +115,37 @@
 
 .ígure-style {
     margin-top: 50px;
-    color: #22262A;
+    line-height: 22px;
     font-weight: 300;
+    font-size: 15px;
+}
+
+.igure-title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .price {
     text-decoration: line-through;
-    color: #22262A;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .discounted-price {
     color: #CF2929;
     margin-left: 30px;
-
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
 
-.footer {
-    justify-content: flex-start;
-    align-items: center;
-    display: flex;
-}
+
 
 .footer-txt {
-    padding-left: 5%;
+    position: absolute;
+    padding: 456px 937px 169px 230px;
 }
 
 /* Contact */
@@ -180,6 +185,9 @@
 .underline {
     border-bottom: 1px solid #000;
     padding-bottom: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .contact-heading {
@@ -218,10 +226,4 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
-}
-
-.temp {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
 }
