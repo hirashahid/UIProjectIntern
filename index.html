@@ -3,6 +3,7 @@
 
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <meta charset="utf-8">
@@ -64,15 +65,21 @@
 
     </header>
 
-    <div class=" banner">
-        <img src="./assets/banner.png" alt="banner" class="w-100">
-        <!-- <div class="banner-txt">
-            <p class="new-trend">NEW TREND</p>
-            <p class="collusion">COLLUSION</p>
-            <p class="banner-desc">An exclusive selection of this season's trends.</p>
-            <button class='banner-btn'>DISCOVER</button>
-            <button class='banner-btn' style="margin-left: 30px;">SHOP NOW</button>
-        </div> -->
+    <div class="bg-image">
+        <img src="assets/banner.png" class="img-fluid col-12 p-0" alt="Sample" />
+        <div class="mask d-flex justify-content-end align-items-end">
+            <div style="padding: 50px;" class="bannerd-flex flex-column banner">
+                <p class="new-trend">NEW TREND</p>
+                <p class="collusion">COLLUSION</p>
+                <p class="banner-desc">An exclusive selection of this season's trends.</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class='banner-btn'>DISCOVER</button>
+                        <button class='banner-btn' style="margin-left: 30px;">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!--Grid-->
@@ -211,7 +218,7 @@
                         <div class="row">
                             <div class="col-1"> </div>
                             <div class="col-5 dress-txt">
-                                <h6 class="underline"> SHOW WOMEN'S DRESS</h6>
+                                <h6 style="width: 170px;" class="underline"> SHOW WOMEN'S DRESS</h6>
                                 <hr>
                             </div>
                             <div class="col-6">
@@ -228,15 +235,24 @@
     </section>
 
     <!--Footer-->
-    <div class="banner" style=" margin-top: 3%;">
-        <img src="./assets/footer.png" alt="footer" class="w-100">
-        <!-- <div class=" footer-txt ">
-            <p class="new-trend">OWN THE DAY</p>
-            <p class="collusion">TACHEN 19</p>
-            <button class='banner-btn'>SHOP COLLECTION</button>
-        </div> -->
-    </div>
 
+    <div class="bg-image" style="margin-top: 20px;">
+        <img src="assets/footer.png" class="img-fluid col-12 p-0" alt="Sample" />
+        <div class="mask d-flex justify-content-start align-items-end">
+            <div style="padding: 50px;" class="d-flex flex-column">
+                <p class="new-trend">OWN THE DAY</p>
+                <p class="collusion">TACHEN 19</p>
+                <div class="row">
+
+                    <div class="col-8">
+                        <button class='banner-btn'>SHOP COLLECTION</button>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!--Contact-->
     <section>
         <div class="contact">
@@ -252,35 +268,35 @@
                     </div>
                     <div class='underline'>kawsarahmed0210@gmail.com</div>
                     <p>01647470457</p>
-                    <div class='social-icons'>
-                        <img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png" />
-                        <img src="https://img.icons8.com/material-outlined/24/null/instagram-new.png" />
-                        <img src="https://img.icons8.com/material-rounded/24/null/twitter.png" />
-                        <img src="https://img.icons8.com/material-rounded/24/null/linkedin--v1.png" />
+                    <div style="margin-bottom: 30px;" class='social-icons'>
+                        <i style="margin-right: 10px;" class="fa-brands fa-facebook"></i>
+                        <i style="margin-right: 10px;" class="fa-brands fa-instagram"></i>
+                        <i style="margin-right: 10px;" class="fa-brands fa-twitter"></i>
+                        <i style="margin-right: 10px;" class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
-                <div style="margin-top: 20px;" class="col-lg-6 col-12">
-                    <h5>RECEIVE EMAIL UPDATES</h5>
+                <div class="col-lg-6 col-12">
+                    <h5 style="font-weight: 700;">RECEIVE EMAIL UPDATES</h5>
                     <form class="form">
                         <input class='form-input' placeholder="Your Email Address" />
                         <button class="button-form">JOIN</button>
                     </form>
                     <div class="row">
-                        <div style='margin-top: 15px;' class="col-4">
+                        <div style='margin-top: 15px;' class="col-lg-4 col-12">
                             <h5 class="contact-heading">SHOP</h5>
                             <h6 style=" margin-top: 20px;">Shop</h6>
                             <h6 style="margin-top: 20px;">Collection</h6>
                             <h6 style="margin-top: 20px;">Outlet</h6>
                             <h6 style="margin-top: 20px;">LookBook</h6>
                         </div>
-                        <div style='margin-top: 15px;' class="col-4">
+                        <div style='margin-top: 15px;' class="col-lg-4 col-12">
                             <h5 class="contact-heading">HELP</h5>
                             <h6 style="margin-top: 20px;">FAQ</h6>
                             <h6 style="margin-top: 20px;">Privacy Policy</h6>
                             <h6 style="margin-top: 20px;">Terms and conditions</h6>
                             <h6 style="margin-top: 20px;">Return and Exchanges</h6>
                         </div>
-                        <div style='margin-top: 15px;' class="col-4">
+                        <div style='margin-top: 15px;' class="col-lg-4 col-12">
                             <h5 class="contact-heading">ABOUT</h5>
                             <h6 style="margin-top: 20px;">Journal</h6>
                             <h6 style="margin-top: 20px;">Our Story</h6>
