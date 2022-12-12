@@ -8,8 +8,7 @@
 /* NavBar */
 
 .navbar-brand {
-    width: 164px;
-    height: 42px;
+    width: 20%;
     left: 229px;
     font-weight: 700;
     font-size: 28px;
@@ -83,13 +82,6 @@
     display: flex;
 }
 
-@media screen and (min-width: 1440px) {
-    .image-edit {
-        background-color: white;
-        /* padding: 40px; */
-        margin-top: -50px;
-    }
-}
 
 .image-edit {
     background-color: white;
@@ -107,6 +99,18 @@
 .wf-container {
     text-align: center;
     margin-top: 120px;
+}
+
+.wf-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.wf-desc {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .space {
