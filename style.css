@@ -263,7 +263,7 @@
     line-height: 22px;
 }
 
-@media (max-width:980px) {
+@media (max-width:990px) {
     .banner {
         padding-bottom: 40px !important;
         padding-right: 40px !important;
@@ -289,6 +289,16 @@
         font-size: 10px !important;
         padding: 3px 17px 3px 17px !important;
     }
+
+    .show-women {
+        width: 120px !important;
+        font-size: 10px;
+    }
+
+    .avone-pic {
+        margin-top: 15%;
+    }
+
 }
 
 @media (max-width:750px) {
@@ -319,6 +329,14 @@
         line-height: 7px !important;
         padding: 4px 18px 4px 18px !important;
     }
+
+    .shop-now {
+        margin-left: 20px;
+    }
+
+    .avone-pic {
+        margin-top: 10%;
+    }
 }
 
 @media (max-width:550px) {
@@ -329,7 +347,7 @@
     }
 
     .new-trend {
-        font-size: 5px !important;
+        font-size: 7px !important;
         line-height: 20px !important;
     }
 
@@ -339,15 +357,60 @@
     }
 
     .banner-desc {
-        font-size: 5px !important;
+        font-size: 7px !important;
         line-height: 20px !important;
         margin-bottom: -20px !important;
     }
 
     .banner-btn {
-        font-size: 5px !important;
+        font-size: 7px !important;
         /* margin-bottom: 50px !important; */
         padding: 4px 8px 4px 8px !important;
+    }
+
+    .shop-now {
+        margin-left: 15px !important;
+    }
+
+    .avone-pic {
+        margin-top: 8%;
+    }
+}
+
+@media (max-width:420px) {
+    .banner {
+        padding-bottom: 30px !important;
+        padding-right: 30px !important;
+
+    }
+
+    .new-trend {
+        font-size: 6px !important;
+        line-height: 20px !important;
+    }
+
+    .collusion {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+
+    .banner-desc {
+        font-size: 6px !important;
+        line-height: 20px !important;
+        margin-bottom: -20px !important;
+    }
+
+    .banner-btn {
+        font-size: 6 !important;
+        padding: 4px 8px 4px 8px !important;
+    }
+
+    .shop-now {
+        margin-left: 10px;
+    }
+
+    .avone-pic {
+        margin-top: 8%;
     }
 }
 
